@@ -477,7 +477,7 @@ if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.querySelecto
 // clock
 function tick(){try{$("clock").textContent=new Date().toLocaleTimeString("en-IN",{timeZone:"Asia/Kolkata",hour:"2-digit",minute:"2-digit"})+" IST"}catch(e){}}tick();setInterval(tick,30000);
 // booking → Google Sheet
-var SHEET_URL="https://script.google.com/macros/s/AKfycbylU1LhIgm65bQMQuaQMDwVXdy4MRKB5SqtV59iwYMya5IPiYqCRILFdNRSJrpm5LLAvQ/exec";
+var SHEET_URL="https://script.google.com/macros/s/AKfycbz4D4Sz-Q9oA3KqwKoUvEBqg-y0r16hxURh7GBpgZ2271DTaqFNKv2suaq_d7be4QBjhQ/exec";
 var EMAIL="hello@everythingdecoded.com";
 function okEmail(e){return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(e)}
 var sel=[],needs=["Sales & Business Development","Marketing & Brand","Go-To-Market & Franchising","Finance & Fundraising","Organization & People","Legal & Compliance","Operations & Process","Technology & Software","AI & Automation","Data, Insights & Intelligence"];
